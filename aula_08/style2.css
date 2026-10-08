@@ -1,0 +1,31 @@
+.caixa1{
+    height: 25vh;
+    width: clamp(400px, 25vw, 700px);
+    background-color: rgb(4, 75, 162);
+    border: 5px solid rgb(3, 3, 80);
+}
+
+.caixa2{
+    height: 25vh;
+    width: clamp(400px, 25vw, 700px);
+    background-color: rgb(234, 32, 6);
+    border: 5px solid rgb(150, 2, 2);
+}
+
+.caixa3{
+    height: 25vh;
+    width: clamp(400px, 25vw, 700px);
+    background-color: rgb(2, 183, 38);
+    border: 5px solid rgb(13, 80, 3);
+}
+
+.caixa4{
+    height: 25vh;
+    width: clamp(400px, 25vw, 700px);
+    background-color: rgb(206, 220, 10);
+    border: 5px solid rgb(179, 133, 5);
+}
+
+h:hover{
+
+}

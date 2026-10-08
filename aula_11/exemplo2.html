@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <button id="btn">click aqui para mudar o texto</button>
+    <p id="paragrafo">Aguardando...</p>
+    <script>
+        let btn = document.getElementById("btn");
+        let paragrafo = document.getElementById("paragrafo");
+
+        btn.addEventListener("click", function(){
+            console.log("Deu certo!");
+            paragrafo.innerHTML = "<h1>Deu certo!</h1>";
+        });
+    </script>
+</body>
+</html>

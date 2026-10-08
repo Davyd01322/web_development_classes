@@ -1,0 +1,2 @@
+Internal CSS que é inserido na própria página HTML, geralmente dentro da tag <style> no cabeçálho
+(<head>) do documento

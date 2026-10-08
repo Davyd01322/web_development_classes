@@ -1,0 +1,12 @@
+Tags:
+	<p>  : tag de parágrafo
+	<br> : tag de quebra de linha
+	<a href="url">Texto do link</a>
+	
+Hiperlinks:
+	target="" >> _blank (abrir uma nova aba), _parent, _self (abrir na mesma aba) e _top
+	
+Email:
+	<a href="mailto:fulano@exemplo.com">Enviar um email</a>
+	
+	

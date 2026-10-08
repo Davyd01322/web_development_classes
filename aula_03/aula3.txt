@@ -1,0 +1,4 @@
+Hoje vamos aprender sobre o agrupamento de elementos com <div>
+
+Serve para dividir a página em porções que por sua vez podem ser divididas e compostas por elementos.
+Os elementos também podem ser divididos

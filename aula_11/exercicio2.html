@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function calcularIMC(peso, altura){
+            // Retorne o IMC (peso/altura)
+            // Adicione uma classifição
+            // <18.5 = Abaixo, 18.5-24.9 = Normal, >25 = sobrepeso
+
+            let imc = peso/altura;
+            if(imc < 18.5){
+                console.log(imc, " => Abaixo!");
+            }
+            else if(imc > 18.5 && imc < 25){
+                console.log(imc, " => Normal");
+            }
+            else if(imc > 25){
+                console.log(imc, " => Sobrepeso");
+            }
+        }
+
+        calcularIMC(77,1.70);
+    </script>
+</body>
+</html>

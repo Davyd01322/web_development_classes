@@ -1,0 +1,22 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.painel{
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
+
+.item{ height: 40px;}
+
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <button id="toggleBtn">Mostrar/Ocultar</button>
+    <p id="texto" style="display:none;">Texto secreto!</p>
+    <input type="text" id="entrada" placeholder="Digite algo...">
+    <p id="saida"></p>
+    <button id="contadorBtn">Clique aqui!</button>
+    <span id="contador">0</span>
+
+    <script>
+        let btn1 = document.getElementById("toggleBtn");
+        let p1 = document.getElementById("texto");
+        let entrada = document.getElementById("entrada");
+        let saida = document.getElementById("saida");
+
+        btn1.addEventListener("click", function(){
+            if(saida.style.display == "none"){
+                saida.style.display = "";
+                saida.nodeValue = "Olá mundo";
+            } else{
+                saida.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio1</title>
+</head>
+<body>
+    <script>
+        let compras = ["Arroz","Feijão"];               // Criar um array
+        compras.push("Leite");                          // adicionar um elemento ao final do array
+        compras.unshift("Pão");                         // adicionar um elemento ao inicio do array
+
+        let item = compras.shift();                     // Remover e guardar um elemento
+        console.log("Item removido: " + item);
+        console.log("O restante do array: " + compras); //
+        console.log("O tamanho do array: " + compras.length);
+    </script>
+</body>
+</html>

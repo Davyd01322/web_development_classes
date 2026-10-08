@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exercicio1</title>
+</head>
+<body>
+    <script>
+        const aplicarDesconto = (valor,vip)=>{
+            let retorno = (vip == true) ? valor * 0.9 : valor;
+            return retorno;
+        }
+
+        const calcularFrete = (subtotal) => {
+            let retorno = (subtotal >= 200) ? 0 : 15;
+            return retorno;
+        }
+
+        function finalizarPedido(valor, vip){
+            let retorno = aplicarDesconto(valor, vip);
+            retorno = retorno + calcularFrete(valor);
+            return retorno;
+        }
+
+        console.log(finalizarPedido(200,true));
+        console.log(finalizarPedido(250,false));
+        console.log(finalizarPedido(300,true));
+
+    </script>
+</body>
+</html>

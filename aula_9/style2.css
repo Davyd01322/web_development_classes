@@ -1,0 +1,27 @@
+.catalogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 1000px;
+    gap: 3px
+}
+
+nav div{
+    border: solid rgb(203, 40, 40) 1px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+div:hover{
+    background-color: rgb(241, 25, 10);
+    border: solid rgb(151, 2, 2);
+    color: aliceblue;
+}
+
+.formated{
+    font-weight: bolder;
+}

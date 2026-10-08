@@ -1,0 +1,32 @@
+.caixa{
+    width: 100%;
+    height: 100%;
+}
+
+.caixa1{
+    width: 75%;
+    height: 100%;
+    background-color: rgb(16, 83, 226);
+    border: 2px solid rgb(6, 49, 129);
+}
+
+.caixa2{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(190, 30, 30);
+    border: 2px solid rgb(122, 8, 8);
+}
+
+.caixa3{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(249, 190, 29);
+    border: 2px solid rgb(193, 129, 0);
+}
+
+p[format="true"]{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: aquamarine;
+    text-align: center;
+}
