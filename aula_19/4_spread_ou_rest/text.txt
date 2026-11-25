@@ -1,0 +1,10 @@
+Spread
+    Pega um objeto ou um array e "espalha" ele para vários valores
+
+Rest
+    Pega vários valores e reúne em um novo objeto ou array
+
+Revisão
+    Um objeto agrupa um conjunto de chave valor
+        O spread espalha esse conjunto em vários valores.
+        O rest reúne

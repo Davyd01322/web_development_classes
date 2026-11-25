@@ -1,0 +1,7 @@
+O que é um módulo?
+    Um módulo é um arquivo que encapsula uma parte do programa e expõe uma interface
+pública por meio de exportações.
+
+    Implementação interna -> Contrato Público -> Outro módulo
+
+Declarações não importadas ficam no escopo do módulo; não são variáveis globais.

@@ -1,0 +1,1 @@
+export const notas = [8, 7, 9, 6];
