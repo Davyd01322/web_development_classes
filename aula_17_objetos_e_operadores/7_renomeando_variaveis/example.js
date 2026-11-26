@@ -6,10 +6,7 @@ const produto = {
 };
 
 // Depois: nomeProduto, valor
-const {
-    nome: nomeProduto,
-    preco: valor
-} = produto;
+const {nome: nomeProduto, preco: valor} = produto;
 
 // A propriedade continua se chamando nome; somente a variavel local foi renomeada
 console.log(nomeProduto);
